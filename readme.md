@@ -4,6 +4,8 @@
 
 Because [webpack is super annoying](https://github.com/webpack/webpack/issues/196). 💩
 
+You need to supply it an absolute path.
+
 
 ## Install
 
