@@ -1,4 +1,4 @@
-# require-fool-webpack [![Build Status](https://travis-ci.org/sindresorhus/require-fool-webpack.svg?branch=master)](https://travis-ci.org/sindresorhus/require-fool-webpack)
+# require-fool-webpack
 
 > Use dynamic `require()` without webpack finding out
 
