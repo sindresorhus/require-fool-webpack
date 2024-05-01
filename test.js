@@ -1,6 +1,6 @@
 import test from 'ava';
-import m from '.';
+import requireFoolWebpack from './index.js';
 
 test(t => {
-	t.is(m('./fixture'), '🦄');
+	t.is(require('./fixture'), '🦄');
 });

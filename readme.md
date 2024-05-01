@@ -9,8 +9,8 @@ You need to supply it an absolute path.
 
 ## Install
 
-```
-$ npm install require-fool-webpack
+```sh
+npm install require-fool-webpack
 ```
 
 

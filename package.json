@@ -1,36 +1,38 @@
 {
-  "name": "require-fool-webpack",
-  "version": "2.0.0",
-  "description": "Use dynamic `require()` without webpack finding out",
-  "license": "MIT",
-  "repository": "sindresorhus/require-fool-webpack",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "require",
-    "import",
-    "webpack",
-    "lol"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "ignores": [
-      "index.js"
-    ]
-  }
+	"name": "require-fool-webpack",
+	"version": "2.0.0",
+	"description": "Use dynamic `require()` without webpack finding out",
+	"license": "MIT",
+	"repository": "sindresorhus/require-fool-webpack",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"require",
+		"import",
+		"webpack",
+		"lol"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	},
+	"xo": {
+		"ignores": [
+			"index.js"
+		]
+	}
 }
